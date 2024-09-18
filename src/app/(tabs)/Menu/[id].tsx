@@ -17,6 +17,9 @@ const ProductDetailsScreen = () => {
     console.warn('Add to cart');
   };
 
+  // Concatenate product ID and name for the header title
+  //const headerTitle = `${id} (${product.name})`;
+
   return (
     <View style={styles.container}>
       <Text style={styles.title}>{product.name}</Text>
